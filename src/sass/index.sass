@@ -71,10 +71,13 @@ $checkradio-top-offset: 0rem !default
 .is-checkradio[type="radio"],
 .is-checkradio[type="checkbox"]
   outline: 0
-  user-select: none
   display: none
   position: absolute
   opacity: 0
+  -webkit-user-select: none
+  -moz-user-select: none
+  -ms-user-select: none
+  user-select: none
 
   + label
     position: relative
